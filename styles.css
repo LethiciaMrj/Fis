@@ -1,0 +1,760 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button, input, textarea {
+  font-family: "Bai Jamjuree", sans-serif;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.6rem;
+  width: 100vw;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(89.99deg, #ec008c -0.41%, #662d91 100%);
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+header .conteudo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 1170px;
+  height: 100px;
+}
+
+header .conteudo p {
+  padding-right: 5rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+header .conteudo .contador {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .conteudo .contador .dias,
+header .conteudo .contador .horas,
+header .conteudo .contador .minutos,
+header .conteudo .contador .segundos {
+  width: 86px;
+  margin: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.8rem;
+}
+
+header .conteudo .contador .dias .numero,
+header .conteudo .contador .horas .numero,
+header .conteudo .contador .minutos .numero,
+header .conteudo .contador .segundos .numero {
+  font-weight: 700;
+  font-size: 4.5rem;
+}
+
+header .conteudo button {
+  background: #f0b323;
+  color: #131025;
+  font-size: 2.4rem;
+  width: 170px;
+  height: 35px;
+  border-radius: 42.5px;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+main {
+  min-width: 100%;
+}
+
+main .banner {
+  width: 100%;
+  height: 545px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  background-image: url("assets/Background Site Kis Desktop 1.png");
+  background-size: cover;
+}
+
+main .banner img.logo {
+  margin: 4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+main .banner .texto {
+  color: white;
+  margin-bottom: 69px;
+}
+
+main .banner .texto .evento {
+  text-align: center;
+  font-size: 4rem;
+}
+
+main .banner .texto .data {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+main .banner button {
+  width: 300px;
+  height: 60px;
+  background: linear-gradient(89.99deg, #EC008C -0.41%, #662D91 100%);
+  margin-bottom: 73px;
+  color: white;
+  line-height: 3.5rem;
+  font-size: 2.8rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+main .infos {
+  background: #EE2A7B;
+  width: 100%;
+  height: 285px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .infos .titulo {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5rem;
+  margin-bottom: 2.7rem;
+  text-transform: uppercase;
+}
+
+main .infos .texto {
+  max-width: 893px;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  text-align: center;
+}
+
+main .lideres p.titulo {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5rem;
+  margin: 5rem 0;
+}
+
+main .lideres .fotos {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (270px)[4];
+      grid-template-columns: repeat(4, 270px);
+  grid-gap: 43px 20px;
+  place-content: center;
+  margin-bottom: 75px;
+}
+
+main .lideres .fotos .lider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 27rem;
+  position: relative;
+}
+
+main .lideres .fotos .lider .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 170px;
+  right: -1px;
+  background: white;
+  padding: 1rem;
+}
+
+main .lideres .fotos .lider p.nome {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.75rem;
+  margin: 13px 0;
+}
+
+main .lideres .fotos .lider p.cargo {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+main .formulario {
+  background: linear-gradient(178.48deg, #EC008C 1.3%, #662D91 98.7%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-weight: 500;
+  padding: 2rem;
+}
+
+main .formulario .titulo {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+main .formulario .texto {
+  margin: 1rem 0;
+  line-height: 3rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+main .formulario .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .formulario .inputs .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .formulario .inputs .checkbox div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+main .formulario .inputs .checkbox div label {
+  margin-bottom: 0.5rem;
+}
+
+main .formulario .inputs .checkbox div input {
+  cursor: pointer;
+}
+
+main .formulario .inputs .campo_texto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+main .formulario .inputs .campo_texto input {
+  background: #f2f2f2;
+  width: 350px;
+  border-radius: .2rem;
+  padding: 1rem;
+  border: 1px solid #e6e6e6;
+  margin: .5rem;
+}
+
+main .formulario .inputs .campo_texto input::-webkit-input-placeholder {
+  color: #5a5a5a;
+}
+
+main .formulario .inputs .campo_texto input:-ms-input-placeholder {
+  color: #5a5a5a;
+}
+
+main .formulario .inputs .campo_texto input::-ms-input-placeholder {
+  color: #5a5a5a;
+}
+
+main .formulario .inputs .campo_texto input::placeholder {
+  color: #5a5a5a;
+}
+
+main .formulario .inputs .confirmacao {
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .formulario .inputs .confirmacao input {
+  cursor: pointer;
+}
+
+main .formulario .inputs .confirmacao p {
+  padding: 0.5rem;
+}
+
+main .formulario .inputs .confirmacao a {
+  padding: 0.5rem;
+  color: white;
+}
+
+main .formulario .inputs button {
+  background: white;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  font-size: 2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+main .formulario .inputs .avisos {
+  text-align: center;
+}
+
+main .formulario .inputs .avisos p {
+  margin: 1rem 0;
+}
+
+main .programacao {
+  background: #131025;
+  height: 200px;
+  color: white;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .programacao p {
+  text-align: center;
+  font-size: 3rem;
+}
+
+main .programacao button {
+  background: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+main footer {
+  background: #100B25;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main footer .links {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main footer .links div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem;
+  padding: 4rem;
+}
+
+main footer .links div p:first-child {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+main footer .links div p:last-child {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+main footer .termos {
+  text-align: end;
+  padding: 0 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+main footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  background: linear-gradient(89.99deg, #EC008C -0.41%, #662D91 100%);
+}
+
+main footer .social img {
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 9px;
+  }
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
+  header {
+    height: 120px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+  }
+  header .conteudo {
+    min-width: 100%;
+    max-width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  header .conteudo p {
+    font-size: 1.54rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  header .conteudo .contador {
+    text-align: center;
+  }
+  header .conteudo .contador .dias,
+  header .conteudo .contador .horas,
+  header .conteudo .contador .minutos,
+  header .conteudo .contador .segundos {
+    width: 40px;
+    margin: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1rem;
+  }
+  header .conteudo .contador .dias .numero,
+  header .conteudo .contador .horas .numero,
+  header .conteudo .contador .minutos .numero,
+  header .conteudo .contador .segundos .numero {
+    font-weight: 700;
+    font-size: 2.3rem;
+  }
+  header .conteudo button {
+    place-self: center;
+    width: 14rem;
+    font-size: 1.3rem;
+    padding: 2px;
+  }
+  main {
+    width: 100vw;
+  }
+  main .banner {
+    padding: 1rem;
+    width: 100vw;
+    background-position: -120px 0px;
+  }
+  main .banner img {
+    padding: 0;
+    max-width: 394px;
+  }
+  main .banner .texto .evento {
+    padding: 1rem;
+    font-size: 3rem;
+  }
+  main .banner .texto .data {
+    font-size: 4rem;
+  }
+  main .banner button {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  main .infos {
+    padding: 2rem;
+    text-align: center;
+  }
+  main .infos .titulo {
+    font-size: 3rem;
+  }
+  main .infos .texto {
+    font-size: 2rem;
+    text-align: justify;
+  }
+  main .lideres {
+    padding: 2rem;
+    width: 100vw;
+  }
+  main .lideres p.titulo {
+    margin: 2rem 0;
+    font-size: 3rem;
+  }
+  main .lideres .fotos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+  main .lideres .fotos .lider .logo {
+    top: 171px;
+    right: -14px;
+  }
+  main .formulario .titulo {
+    font-size: 3rem;
+  }
+  main .formulario .inputs .campo_texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .formulario .inputs .campo_texto input {
+    width: 300px;
+  }
+  main .formulario .inputs .confirmacao {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main .programacao {
+    height: auto;
+    padding: 2rem;
+  }
+  main .programacao p {
+    font-size: 3rem;
+  }
+  main .programacao button {
+    width: 200px;
+    height: 40px;
+  }
+  main footer .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main footer .links div {
+    padding: 1rem;
+  }
+  main footer .links div p:first-child {
+    font-size: 2.5rem;
+  }
+  main footer .social {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 354px) {
+  html {
+    font-size: 40%;
+  }
+  main .banner img {
+    max-width: 70vw;
+  }
+  main .lideres .fotos .logo {
+    top: 176px !important;
+    right: -49px !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
